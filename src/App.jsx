@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from './Component/Util/Header'
-import { Route, Router } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+import Home from './Component/Util/Public/Home'
+
+
 
 
 
@@ -9,7 +12,9 @@ const App = () => {
   
     <div>
     <Header/>
-    
+   
+   <Outlet/>
+
     </div>
      
   )
