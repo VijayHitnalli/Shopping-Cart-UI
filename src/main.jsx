@@ -33,6 +33,7 @@ const allRoutes=()=>{
                 return <Route key={i} path={nav.path} element={nav.element}/>
             }
         }
+        return null;
       })}
         </Route>
     )
