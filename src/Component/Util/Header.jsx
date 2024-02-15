@@ -28,9 +28,9 @@ const Header = () => {
             <i className="fas fa-cart-shopping mr-1"></i> Cart
           </Link>
 
-          {/* <Link to="/wishlist" className='text-black flex items-center'>
-            <i className="fas fa-cart-shopping mr-1"></i> Wishlist
-          </Link> */}
+          <Link to="/wishlist" className='text-black flex items-center'>
+          <i className="fa-regular fa-heart p-1" ></i> Wishlist
+          </Link>
           
           {/* Some additional icon or link */}
           <Link to="/" className='text-black'>
