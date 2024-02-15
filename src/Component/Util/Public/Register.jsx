@@ -54,7 +54,7 @@ const Register = ({ role }) => {
               <label htmlFor="password" className='text-2xl'>Enter your Password:</label>
               <input type="password" onChange={(event) => setPassword(event.target.value)} id="password" className='h-10 w-96 rounded-tl-md rounded-br-lg  bg-gray-200 px-2' />
             </div>
-            <button type='submit' className='w-30 h-8 bg-blue-800 my-8  rounded-tl-md rounded-br-lg' onClick={handleRegistration}>Register</button>
+            <button type='submit' className='w-35 h-10 bg-blue-600 my-8  rounded-tl-md rounded-br-lg p-1.5' onClick={handleRegistration}>Register</button>
           </form>
         </div>
 
